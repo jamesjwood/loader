@@ -29,7 +29,7 @@ module.exports = function(opts) {
     };
 
     var getVersion = function(appString) {
-        var searchTerm = "process.env.VERSION='";
+        var searchTerm = "process.env.VERSION = '";
         var startPos = appString.indexOf(searchTerm) + searchTerm.length;
         var endPos = appString.indexOf("'", startPos);
         var version = appString.substring(startPos, endPos);
