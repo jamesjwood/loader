@@ -1,5 +1,5 @@
 {
-  "name": "loader",
+  "name": "tsuju-loader",
   "version": "0.0.0",
   "description": "loader ======",
   "main": "index.js",
